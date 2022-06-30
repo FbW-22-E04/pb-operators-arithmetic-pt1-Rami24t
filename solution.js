@@ -34,7 +34,7 @@ console.log(`Q8: ${9*9*9}cm^3`)
 //    €22.35 + 10% tip
 //    €26.67 + 15% tip
 //    €35.92 + 20% tip
-console.log(`Q9: €${22.35+22.35/10} €${26.67+26.67/15} €${35.92+35.92/20}`)
+console.log(`Q9: EUR${22.35+22.35/10} EUR${26.67+26.67/15} EUR${35.92+35.92/20}`)
 //Print all three results in one string to the console
 
 //Average
