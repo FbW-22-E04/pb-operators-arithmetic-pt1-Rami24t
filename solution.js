@@ -10,7 +10,8 @@
 // 6450/15 dollars
 console.log(`Q1: ${6450/15} tickets were sold`);
 //Q2. Sylvia's income is 500 dollars per week. How much does Sylvia makes every year?
-console.log(`Q2: Sylvia makes ${500*52.17857} dollars per year.`);
+// console.log(`Q2: Sylvia makes ${500*52.17857} dollars per year.`);
+console.log(`Q2: Sylvia makes ${500*52} dollars per year.`);
 //Percentage
 
 //Q3. Calculate the percentage of 17/30. Expected output: "Q3: [number]%" (No need to round the result)
@@ -61,4 +62,6 @@ console.log("Q11: Score in the sixth test: ", 85*6 - (75+70+85+90+100));
 // ((0.8*0.78)+y)/9=0.8
 //
 
-console.log(`Q12: James needs a minimum of ${(0.8*0.9-0.8*0.78)*100}% to get an 80% average`)
+// console.log(`Q12: James needs a minimum of ${(0.8*0.9-0.8*0.78)*100}% to get an 80% average`)
+ console.log(`Q12: James needs a minimum of ${(Math.round(0.8*9-0.8*0.78)*100)}% to get an 80% average`)
+
