@@ -58,7 +58,7 @@ console.log("Q11: Score in the sixth test: ", 85*6 - (75+70+85+90+100));
 // let y be the minimum needed
 // x/8=0.78
 // x=(0.8*0.78)
-// (0.8*0.78)+y/9=0.8
-// y=(0.8-0.8*0.78)*9
+// ((0.8*0.78)+y)/9=0.8
+//
 
-console.log(`Q12: James needs a minimum of ${(9*(0.8-0.8*0.78))*100}% to get an 80% average`)
+console.log(`Q12: James needs a minimum of ${(0.8*9-0.8*0.78)*100}% to get an 80% average`)
